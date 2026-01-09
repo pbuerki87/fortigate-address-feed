@@ -1,0 +1,8 @@
+{
+  "record": {
+    "addresses": [
+      { "name": "srv-erp", "type": "ip", "value": "10.10.10.10/32" },
+      { "name": "net-mgmt", "type": "subnet", "value": "10.20.0.0/16" }
+    ]
+  }
+}
