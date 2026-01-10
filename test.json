@@ -1,12 +1,28 @@
 {
-  "record": {
-    "addresses": [
-      { "name": "srv-erp", "type": "ip", "value": "10.10.10.10/32" },
-      { "name": "srv-erp01", "type": "ip", "value": "10.10.10.11/32" },
-      { "name": "srv-erp02", "type": "ip", "value": "10.10.10.12/32" },
-      { "name": "srv-erp03", "type": "ip", "value": "10.10.10.13/32" },
-      { "name": "net-ot", "type": "ip", "value": "10.30.0.0/16" },
-      { "name": "net-mgmt", "type": "ip", "value": "10.20.0.0/16" }
-    ]
-  }
+  "addresses": [
+    {
+      "name": "ip_address",
+      "value": [
+        "172.16.200.1-172.16.200.254",
+        "192.168.4.1-192.168.4.254"
+      ],
+      "description": "generic object IP Address"
+    },
+    {
+      "name": "Test",
+      "value": [
+        "10.16.200.1-10.16.200.254"
+      ],
+      "description": "generic object IP Address"
+    },
+    {
+      "name": "mac_address",
+      "value": [
+        "00:0c:29:1b:40:c9",
+        "00:0c:29:f6:0d:49",
+        "00:0c:29:63:40:09"
+      ],
+      "description": "generic object MAC Address"
+    }
+  ]
 }
