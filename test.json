@@ -5,8 +5,8 @@
       { "name": "srv-erp01", "type": "ip", "value": "10.10.10.11/32" },
       { "name": "srv-erp02", "type": "ip", "value": "10.10.10.12/32" },
       { "name": "srv-erp03", "type": "ip", "value": "10.10.10.13/32" },
-      { "name": "net-ot", "type": "subnet", "value": "10.30.0.0/16" },
-      { "name": "net-mgmt", "type": "subnet", "value": "10.20.0.0/16" }
+      { "name": "net-ot", "type": "ip", "value": "10.30.0.0/16" },
+      { "name": "net-mgmt", "type": "ip", "value": "10.20.0.0/16" }
     ]
   }
 }
